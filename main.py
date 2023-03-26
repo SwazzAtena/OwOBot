@@ -11,8 +11,6 @@ z = random.randint(2,6)
 y = random.randint(18 , 32)
 x = 0
 while True:
-    pyautogui.moveTo(157,14)
-    pyautogui.click(clicks=1)
     pyautogui.moveTo(489,1002)
     pyautogui.click(clicks=1)
     pyautogui.typewrite("owo hunt", interval=0.10)
